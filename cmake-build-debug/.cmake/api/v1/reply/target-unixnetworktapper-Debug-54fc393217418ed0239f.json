@@ -92,7 +92,8 @@
 			"sourceIndexes" : 
 			[
 				1,
-				3
+				3,
+				4
 			]
 		}
 	],
@@ -118,6 +119,11 @@
 		{
 			"backtrace" : 1,
 			"path" : "src/core/logger/ults/logger.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "src/core/scanner/network_interface/interface.h",
 			"sourceGroupIndex" : 1
 		}
 	],
