@@ -4,12 +4,4 @@
 #include <string>
 #include <cstdio>
 
-
-void pcap_test_function(){ //function that test if pcap is working
-
-}
-
-int main(){
-
-return 0;
-}
+int main(){return 0;}

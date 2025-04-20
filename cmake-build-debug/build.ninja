@@ -55,6 +55,12 @@ build CMakeFiles/unixnetworktapper.dir/src/core/main.cpp.o: CXX_COMPILER__unixne
   OBJECT_DIR = CMakeFiles/unixnetworktapper.dir
   OBJECT_FILE_DIR = CMakeFiles/unixnetworktapper.dir/src/core
 
+build CMakeFiles/unixnetworktapper.dir/src/core/logger/ults/logger.cpp.o: CXX_COMPILER__unixnetworktapper_unscanned_Debug /Users/leog/CLionProjects/unixnetworktapper/src/core/logger/ults/logger.cpp || cmake_object_order_depends_target_unixnetworktapper
+  DEP_FILE = CMakeFiles/unixnetworktapper.dir/src/core/logger/ults/logger.cpp.o.d
+  FLAGS = -g -std=gnu++2b -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX15.2.sdk -fcolor-diagnostics
+  OBJECT_DIR = CMakeFiles/unixnetworktapper.dir
+  OBJECT_FILE_DIR = CMakeFiles/unixnetworktapper.dir/src/core/logger/ults
+
 
 # =============================================================================
 # Link build statements for EXECUTABLE target unixnetworktapper
@@ -63,7 +69,7 @@ build CMakeFiles/unixnetworktapper.dir/src/core/main.cpp.o: CXX_COMPILER__unixne
 #############################################
 # Link the executable unixnetworktapper
 
-build unixnetworktapper: CXX_EXECUTABLE_LINKER__unixnetworktapper_Debug CMakeFiles/unixnetworktapper.dir/src/core/main.cpp.o
+build unixnetworktapper: CXX_EXECUTABLE_LINKER__unixnetworktapper_Debug CMakeFiles/unixnetworktapper.dir/src/core/main.cpp.o CMakeFiles/unixnetworktapper.dir/src/core/logger/ults/logger.cpp.o
   FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX15.2.sdk
   OBJECT_DIR = CMakeFiles/unixnetworktapper.dir
   POST_BUILD = :
