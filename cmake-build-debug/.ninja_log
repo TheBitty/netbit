@@ -1,0 +1,4 @@
+# ninja log v6
+1	43	1745128792498193460	build.ninja	663a2c4eef32f51b
+1	383	1745128792506450550	CMakeFiles/unixnetworktapper.dir/src/core/main.cpp.o	c7ea3e6ada1ff895
+384	412	1745128792890095925	unixnetworktapper	81d4579df73ea778

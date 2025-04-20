@@ -4,6 +4,8 @@
 #include <pcap.h>
 
 struct tcp_header{
-     int port;
+    int port;
      int destination_port;
+
+
 };
