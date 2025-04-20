@@ -3,7 +3,9 @@ project(unixnetworktapper)
 
 set(CMAKE_CXX_STANDARD 23)
 
-add_executable(unixnetworktapper src/core/main.cpp
+add_executable(unixnetworktapper
+        src/core/main.cpp
         src/core/scanner/tcp/tcp_header.h
         src/core/scanner/tcp/tcp_header.h
-        src/core/logger/ults/logger.cpp)
+        src/core/logger/ults/logger.cpp
+        src/core/logger/ults/logger.h)
