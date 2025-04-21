@@ -15,9 +15,7 @@ class network_interface{ // this will be a parent class
 
 
   private:
-    pcap_t* handle_;
-    void process_packet(const u_char* packet);
-    static void packet_handler(u_char* user, const struct pcap_pkthdr* pkthdr, const u_char* packet);
+
 
     };
 

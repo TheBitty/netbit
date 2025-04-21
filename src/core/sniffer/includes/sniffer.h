@@ -3,6 +3,8 @@
 #include <pcap.h>
 #include <string>
 
-class Sniffer{
-  public: // we need to get our interface
-};
+//#include "src/core/logger/ults/logger.h"
+
+//class Sniffer : public network_interface{
+  //public: // we need to get our interface
+//};
