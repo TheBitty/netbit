@@ -9,4 +9,5 @@ add_executable(unixnetworktapper
         src/core/scanner/tcp/tcp_header.h
         src/core/logger/ults/logger.cpp
         src/core/logger/ults/logger.h
-        src/core/scanner/network_interface/interface.h)
+        src/core/scanner/network_interface/interface.h
+        src/core/sniffer/includes/sniffer.h)
